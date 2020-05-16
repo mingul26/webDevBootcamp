@@ -1,0 +1,106 @@
+body {
+	font-family: Roboto,Arial;
+	background: linear-gradient(to right,#eadf32,#e327e9); 
+}
+
+#main {
+	width: 360px;
+	margin: 100px auto;
+	background-color:#f7f7f7;
+	box-shadow: 0 0 3px rbga(0,0,0, 0.1);
+}
+
+h1 {
+	background: #2980b9;
+	color: white;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+	font-family: Arial;
+	letter-spacing: 5px;
+	margin: 0;
+}
+
+#toggle {
+	float: right;
+	cursor: pointer;
+	font-weight: bolder;
+	scale: 1.5;
+}
+
+input {
+	width: 100%;
+	font-size: 18px;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+	border: 3px solid rgba(0,0,0,0);
+	background: #f2f2f2;
+	border-bottom: 1px dashed black;
+	transition: .4s
+}
+
+input:focus {
+	border: 2px solid #2980b9;
+	color: #2980b9;
+	scale: 1.5
+}
+
+input:hover {
+	border: 2px solid #2980b9;
+	color: #2980b9;
+	scale: 1.5;
+	transition: .5s
+}
+
+.take {
+	display: none;
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li {
+	height: 40px;
+	background: white;
+	line-height: 40px;
+	color: #666;
+	cursor: default;
+}
+
+li:nth-child(2n) {
+	background: #f2f2f2;
+}
+
+.done {
+	color: gray;
+	text-decoration: line-through;
+	opacity: 1;
+}
+
+
+li:hover {
+	scale: 1.1;
+}
+
+li span{
+	background: #cc1720;
+	height: 40px;
+	margin-right: 20px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	opacity: 0;
+	cursor: pointer;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1;
+	transition: 0.5s linear;
+}
