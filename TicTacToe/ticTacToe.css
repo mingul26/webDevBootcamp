@@ -1,0 +1,32 @@
+h1 {
+	text-align: center;
+	font-size: 4rem;
+	margin: 0;
+	padding: 20px 0;
+}
+
+#grid {
+	max-width: 381px;
+	height: 381px;
+	margin: 20px auto;
+	background: black;
+}
+
+.square {
+	width: 33.3%;
+	float: left;
+	height: 33.3%;
+	display: block;
+	scale: .99;
+	box-sizing: border-box;
+}
+
+.midh {
+	border-top: 1.59px solid black;
+	border-bottom: 1.59px solid black;
+}
+
+.midv {
+	border-left: 1.59px solid black;
+	border-right: 1.59px solid black;
+}
